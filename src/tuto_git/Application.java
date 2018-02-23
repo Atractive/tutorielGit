@@ -21,6 +21,7 @@ public class Application extends Frame implements WindowListener{
 		this.setLocationRelativeTo(null);
 		this.add(vue);
 		this.pack();
+		this.setTitle("Konteur");
 		this.setVisible(true);
 		this.addWindowListener(this);
 	}
